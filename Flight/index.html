@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HC Airline Ticket Reservation System</title>
+    <link href="./index.css" rel="stylesheet">
+  </head>
+<body>
+  <div class="heading">
+    <h1>Flight Booking</h1>
+    <p>MAKE YOUR RESERVATION</p>
+  </div>
+  <table>
+      <tr>
+          <td>
+              <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                  <div>
+                      <label>Full Name<sup style="color: red;">*</sup></label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                      <input type="text" name="fullName" id="fullName" required>
+                  </div>
+                  <div>
+                     <label>Phone No<sup style="color: red;">*</sup></label>
+                     <input type="tel" name="number" id="number" maxlength="10"  required>
+                  </div>
+                  <div>
+                     <label>Email id<sup style="color: red;">*</sup></label>
+                     <input type="email" name="email" id="email" required>
+                  </div>
+                  <div>
+                      <label>Number of Sets:</label>
+                      <input type="number" name="no" id="no" required class="date">
+                  </div>
+                  <div>
+                      <label>Date:</label>
+                      <input type="date" name="date" id="date" required>
+                  </div>
+
+                  <div>
+                      <label>From:</label>
+                      <input type="text" name="from" id="from" required>
+                  </div>
+                  <div>
+                      <label>To:</label>
+                      <input type="text" name="to" id="to" required>
+                  </div>
+                  <div  class="form-action-buttons">
+                        <a href="./index1.html" target="_parent" class="index1">Select Sets</a>
+                        &nbsp;
+                      <input type="submit" value="Submit" ondblclick="alert('Your Flight is Succsesfully Booked..')">
+                      &nbsp;
+                      <input type="submit" value="Reset">
+                  </div>
+              </form>
+          </td>
+          <td>
+              <table class="list" id="employeeList">
+                  <thead>
+                      <tr class="list">
+                          <th>Full Name</th>
+                          <th>Phone No</th>
+                          <th>Email id</th>
+                          <th>No of Sets</th>
+                          <th>Date</th>
+                          <th>From</th>
+                          <th>To</th>
+                          <th class="thead"></th>
+                      </tr>
+                  </thead>
+                  <tbody>
+
+                  </tbody>
+              </table>
+          </td>
+      </tr>
+  </table>
+  <script src="index.js"></script>
+  <hr width="100%" size="10px" color="black">
+  <div class="footer">
+    <footer>
+        <div class="foot-head">
+            <li><img src="./facebook.png" alt=""></li>
+            <li> <img src="./linkedin.png" alt=""></li>
+            <li><img src="./twitter.png" alt=""></li>
+            <li><img src="./whatsapp.png" alt=""></li>
+        </div>
+        <hr color="black" class="hr2">
+        <div class="foot-list">
+            <ul class="name">
+                <h1>
+                    BOOK YOUR TIKECTS
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident 
+                    quod voluptatibus maiores iure, fugit minima libero cumque explicabo
+                     tenetur, recusandae excepturi, aliquam nostrum alias. Natus ut aut hic 
+                     ipsa quidem?
+                </p>
+            </ul>
+            <ul>
+                <li>Booking</li>
+                <li>Classes</li>
+                <li>Available Dates</li>
+                <li>Economy</li>
+            </ul>
+            <ul>
+                <li>Chitradurga</li>
+                <li>Davangere</li>
+                <li>Mysoure</li>
+                <li>Holelkere</li>
+            </ul>
+            <ul>
+                <li>Bangalore</li>
+                <li>Doddabalapur</li>
+                <li>Shivamogga</li>
+                <li>Challkere</li>
+            </ul>
+        </div>
+    </footer>
+    <p class="copyright"> &copy;2022 Talentpace. All Rights Reserved.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,182 @@
+body{
+  background-image: url(./bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+}
+
+body > table{
+  width: 100%;
+}
+
+table{
+  border-collapse: collapse;
+}
+table.list{
+  width:100%;
+}
+.heading{
+    border: 2px solid transparent;
+    background-color: transparent;
+    text-align: center;
+}
+.heading h1{
+  font-size: 39px;
+  font-weight: bold;
+  color: gold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading p{
+  margin-top: -2%;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+td, th {
+  border: 1px solid transparent;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+  background-color: #dddddd;
+}
+
+input[type=text], input[type=number] ,input[type=date],input[type=email],input[type=tel]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+label{
+  font-size: 16px;
+  font-weight: bold;
+  color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=submit]{
+  width: 30%;
+  background-color: rgb(123, 165, 204);
+  color: #000;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form div.form-action-buttons{
+  text-align: right;
+}
+.index1{
+  border: 1px solid rgb(152, 175, 174);
+  width: 30%;
+  height: 21px;
+
+}
+
+a{
+  cursor: pointer;
+  color: #0000ee;
+  margin-right: 4px;
+  border: 1px solid red;
+  width: 90px;
+  height: 23px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(238, 178, 14);
+  text-decoration: none;
+
+}
+
+label.validation-error{
+  color:   red;
+  margin-left: 5px;
+}
+
+.hide{
+  display:none;
+}
+.list{
+  margin-top: -28%;
+}
+input[type=reset]{
+  width: 30%;
+  background-color: rgb(180, 180, 180);
+  color: #000;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.footer{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 300px;
+    margin: 0%;
+
+}
+.foot-head{
+  display: flex;
+  margin-top: 5%;
+  margin-left: 42%;
+}
+.foot-head li{
+  list-style: none;
+  margin-right: 20px;
+}
+.footer .foot-head img{
+    width: 30px;
+    height: 30px;
+    list-style: none;
+}
+.hr2{
+  width: 80%;
+  size: 2px;
+}
+.foot-list{
+  display: flex;
+  justify-content: space-evenly;
+}
+.foot-list li{
+  list-style: none;
+  margin-left: -72%;
+  color: rgb(96, 88, 211);
+  font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.name{
+  border: 1px solid transparent;
+  width: 30%;
+  height: fit-content;
+  margin-top: -1%;
+}
+.name h1{
+  color: goldenrod;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name p{
+  color: #dddddd;
+  font-size: 18px;
+}
+.copyright{
+  color: white;
+  margin-top: -1%;
+  background-color: #292828;
+  text-align: center;
+}
